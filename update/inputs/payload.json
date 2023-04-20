@@ -1,0 +1,13 @@
+{
+  "username": "api",
+  "name": "karumanchi",
+  "age": 24,
+  "location": {
+      "address": {
+          "street": "sivalayam",
+          "number": 5
+      },
+      "city": "guntur",
+      "country": "india"
+  }
+}

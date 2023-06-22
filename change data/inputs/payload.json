@@ -1,26 +1,20 @@
-%dw 2.0
-output application/json
----
-payload map(item, index)->{
-"EmpName": item.name,
-"BossName": (payload filter $.ID == item.bossID).name[0]
-}
-
-
-/*[{
-"EmpName": "123",
-"BossName": "456"
+[{
+"ID": "A",
+"name": "123",
+"bossID": "C"
 },
 {
-"EmpName": "345",
-"BossName": "789"
+"ID": "B",
+"name": "345",
+"bossID": "D"
 },
 {
-"EmpName": "456",
-"BossName": "345"
+"ID": "C",
+"name": "456",
+"bossID": "B"
 },
 {
-"EmpName": "789",
-"BossName": "456"
-}]*/
-
+"ID": "D",
+"name": "789",
+"bossID": "C"
+}]

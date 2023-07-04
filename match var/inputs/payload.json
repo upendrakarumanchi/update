@@ -1,0 +1,17 @@
+
+[
+  {
+    "SR#": "1",
+    "PropertyName": "shipToaddres",
+    "YES": "success",
+    "NO": "fail",
+    "NA": "fail"
+  },
+  {
+    "SR#": "2",
+    "PropertyName": "billToadress",
+    "YES": "fail",
+    "NO": "fail",
+    "NA": "success"
+  }
+]
